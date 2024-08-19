@@ -572,7 +572,8 @@ span{
     /* Text styles */
     text-align: center;
      /* Background styles */
-    background: url(images/ocmdBeach.jpg) no-repeat;
+    background-image: url(images/ocmdBeach.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0;
    
