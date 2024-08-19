@@ -237,11 +237,12 @@ span{
   margin-bottom: 5rem;
 }
 .skills{
-      /* Background styles */
+   /* Background styles */
     background-image: url(images/ocmd.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: 50% 0;
+   
 }
 
 .skills-container {
