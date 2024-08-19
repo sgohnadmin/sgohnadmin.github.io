@@ -239,7 +239,7 @@ span{
 .skills{
       /* Background styles */
     background-image: url(images/ocmd.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -346,7 +346,7 @@ span{
 .contact{
      /* Background styles */
     background-image: url(images/contactbeach.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
    / background-repeat: no-repeat;
     background-attachment: fixed;
@@ -572,7 +572,7 @@ span{
     text-align: center;
      /* Background styles */
     background-image: url(images/ocmdBeach.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
