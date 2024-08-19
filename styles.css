@@ -345,11 +345,11 @@ span{
 }
 .contact{
      /* Background styles */
+    
     background-image: url(images/contactbeach.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-   / background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: 50% 0;
 }
 .contact h2 {
   margin-bottom: 3rem;
