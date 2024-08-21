@@ -514,6 +514,12 @@ span{
   .footer {
     flex-direction: column-reverse;
   }
+   .nav-logo  img {
+       max-width: 15vw; 
+       display: block;
+       width: 100%;
+            
+ }
 }
   
 @media only screen and (max-width: 768px) {
