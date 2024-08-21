@@ -223,7 +223,7 @@ span{
   color: white;
   text-align: center;
   font-size: 2.8rem;
-  margin-top: 1.6rem;
+  margin-top: 1.5rem;
 }
 .about-content h2 {
   text-align: left;
@@ -350,7 +350,7 @@ span{
 .contact{
      /* Background styles */
     
-    background-image: url(images/contactbeach.jpg);
+    background-image: url(images/ocmdBeach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0;
@@ -514,7 +514,7 @@ span{
   .footer {
     flex-direction: column-reverse;
   }
-   .nav-logo  img {
+     .nav-logo  img {
        max-width: 15vw; 
        display: block;
        width: 100%;
