@@ -115,26 +115,25 @@
            
       </div>
     </section>
-    <section class="contact" id="contact">
+     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-      <form id="subscription">
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact_form">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
-          <input type="hidden" name="_next" value ="/thankyou.html" />
+            <input type="hidden" name="access_key" value="9ff71d93-a786-4d56-b6f2-fde2ec1cc156">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
         </div>
-        <div class="input-box">
-          <input type="text" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
-        </div>
+       
         <textarea
           name=""
           id=""
           cols="30"
           rows="7"
+         name="message"
           placeholder="Your Message"
         ></textarea>
-        <input type="button" value="Send Message" class="btn" />
+    
+        <button id="submit_button" type="submit" class="btn btn-primary">Submit</button>
       </form>
     </section>
     <footer class="footer">
@@ -163,5 +162,7 @@ function mobileMenu() {
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-}</script>
+}
+
+      </script>
 </html>
