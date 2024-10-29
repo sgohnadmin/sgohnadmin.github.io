@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
    --main-color: #A1447A;
-    --bg-color: #fff;
+    --bg-color: #3a3c3a;
     --second-bg-color: #9bc6dc;
     --third-bg-color: #f2f2f2;
     --opt1: #507fa0;
   
-    --text-color: #000;
+    --text-color: #fff;
     --Secondary: #364246;
     --Compliment: #4E5151;
     --Comp2:#423a2b;
